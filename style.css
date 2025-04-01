@@ -1,0 +1,669 @@
+.fContainer{
+    width: 100%;
+    height: 50px;
+    background-color: #222;
+    display: flex;
+}
+
+.Navbar{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    height: 50px;
+    background-color: #222;
+    align-items: center;
+    text-transform: capitalize;
+    box-shadow: inset 7px 15px 0 rgba(0, 0 ,0, 0,5);
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4px;
+    font-size: 1.1em;
+    padding: 15px;
+    margin-left: 100px;
+}
+
+.firstname{
+    color: white;
+    font-weight:800;
+}
+
+.lastname{
+    color: crimson;
+    font-weight: 400;
+    padding-left: 4px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+    text-decoration: none;
+}
+
+.navigation li{
+    list-style-type: none;
+    padding: 13px;  
+}
+
+.navigation li a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation li a:hover{
+    color: crimson;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.nav-item{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.active{
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    margin-left: 12px;
+}
+
+.active:hover{
+    color: white !important;
+}
+
+.NavbarsocialIcons{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 700px;
+    color: #222;
+}
+
+.NavbarsocialIcons a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #222;
+    
+}
+
+.NavbarsocialIcons a i{
+    font-size: 20px;
+    color: white;
+    opacity: 0.9;
+}
+
+
+
+.jumbotron {
+    height: 550px;
+    text-align: left;
+    margin-top: -120px; 
+    font-weight: 300;
+    
+}
+.jumbotron img{
+    height: 480px;
+    margin-left: 885px;
+    margin-top: -380px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #333;
+}
+
+
+
+.jumbotron .display-4 {
+    color: black;
+    margin-top: 300px;
+    font-weight: 300;
+    margin-left: 150px;
+}
+
+.jumbotron .btn{
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+.card-title {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.all{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    justify-content: right;
+    align-items: right;
+     
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card-img-top{
+    height: 300px;
+}
+
+.pb{
+    margin-top: 120px;
+}
+
+
+
+.wrapper{
+    padding-top: 100px;
+    box-sizing: border-box;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin-right: 150px ;
+    margin-left: 230px ;
+    margin-bottom: 200px;
+ }
+
+ .wrapper .foto-bt .btn{
+    background-color: crimson;
+    margin-top: 20px;
+    size: 100px;
+    margin-left: 10px;
+    color: white;
+    float: left;
+    border-radius: 8px;
+    margin-right: 40px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+ .wrapper .img-wrapper{
+    height: 300px;
+    max-width: 320px;
+    float: left;
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin-right: 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+ .text-box h2{
+    font-size: 30px;
+ }
+
+ .text-box p{
+    font-size: 15px;
+ }
+ .text-box h4{
+    padding-top: 50px;
+ }
+ .kolom{
+    column-width: 200px;
+}
+
+
+
+ .kolom .warna-jk{
+    color: dimgray;
+ }
+
+
+ .footer{
+    background-color: #111111;
+    
+ }
+
+ .footerContainer{
+    width: 100%;
+    padding: 5px;
+    margin-top: -120px;
+ }
+
+ .socialIcons{
+    display: flex;
+    justify-content: center;
+ }
+
+ .socialIcons a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.footerNav{
+    margin: 20px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.7;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.form{
+    width: 80vw;
+    max-width: 600px;
+    padding: 2em 1.5em;
+    background-color: #ffffff;
+    margin: 1em auto;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+
+
+
+
+
+.buttonForm{
+    font-size: 1em;
+    background-color: crimson;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    padding: 0.8em 0;
+    margin-top: 2em;
+    display: block;
+    outline: none;
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+}
+
+
+.popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s top 0.4s;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-transform: translate(-50%, -50%) scale(0.1);
+    -moz-transform: translate(-50%, -50%) scale(0.1);
+    -ms-transform: translate(-50%, -50%) scale(0.1);
+    -o-transform: translate(-50%, -50%) scale(0.1);
+    -webkit-transition: transform 0.4s top 0.4s;
+    -moz-transition: transform 0.4s top 0.4s;
+    -ms-transition: transform 0.4s top 0.4s;
+    -o-transition: transform 0.4s top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -moz-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    -o-transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img{
+    width:100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+@media screen and (min-width:966px) and (max-width:1160px)  {
+    .NavbarsocialIcons{
+        margin-left: 330px;
+    }
+     .brand{
+        margin-left: 80px;
+    }
+    .jumbotron img{
+        height: 300px;
+        margin-left: 570px;
+        margin-top: -250px;
+       }
+    .jumbotron .display-4 {
+        color: black;
+        margin-top: 300px;
+        font-weight: 300;
+        font-size: 40px;
+        margin-left: 70px;
+    }
+    .jumbotron .btn{
+        margin-left: 80px;
+    }
+    .card-img-top{
+        height: 150px;
+        
+    }
+}
+
+@media screen and (min-width:899px) and (max-width:965px){
+    .NavbarsocialIcons{
+        margin-left: 10px;
+    }
+    .jumbotron img{
+        height: 250px;
+        margin-left: 600px;
+        margin-top: -300px;
+       }
+    .jumbotron .display-4 {
+        color: black;
+        margin-top: 300px;
+        font-weight: 300;
+        font-size: 40px;
+        margin-left: 80px;
+    }
+    .jumbotron .btn{
+        margin-left: 80px;
+    }
+    .card-img-top{
+        height: 150px;
+        
+    }
+}
+@media screen  and (min-width:714px) and (max-width:898px){
+    .NavbarsocialIcons{
+        margin-left: 10px;
+    }
+
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4px;
+    font-size: 0.9em;
+    padding: 15px;
+    margin-left: 50px;
+}
+    .jumbotron img{
+        height: 200px;
+        margin-left: 300px;
+        margin-top: -200px;
+       }
+    .jumbotron .display-4 {
+        color: black;
+        margin-top: 200px;
+        font-weight: 300;
+        font-size: 30px;
+        margin-left: 80px;
+    }
+    .jumbotron .btn{
+        margin-left: 80px;
+    }
+    .card-img-top{
+        height: 100px;
+        
+    }
+}
+
+@media screen  and (min-width:620px) and (max-width:713px){
+    .NavbarsocialIcons{
+        display: none;
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 11px;
+        text-decoration: none;
+    }
+    
+    .navigation li{  
+        margin-left: 90px;
+    }
+    
+    .nav-item{
+        color: white;
+     
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .active{
+        background-color: crimson;
+        color: white;
+        
+        margin-left: 12px;
+        
+    }
+
+    .brand{
+       
+        margin-left: 30px;
+    }
+    .jumbotron{
+        margin-bottom: -150px;
+    }
+    .jumbotron img{
+        height: 180px;
+        margin-left: 400px;
+        margin-top: -250px;
+       }
+    .jumbotron .display-4 {
+        color: black;
+        margin-top: 200px;
+        font-weight: 300;
+        font-size: 25px;
+        margin-left: 60px;
+    }
+    .jumbotron .btn{
+        margin-left: 80px;
+    }
+
+    .top{
+        padding-top: 20px;
+    }
+}
+
+@media screen  and (min-width:470px) and (max-width:619px){
+    .NavbarsocialIcons{
+        display: none;
+    }
+    .jumbotron img{
+        height: 300px;
+        margin-left: 90px;
+        margin-top: -740px;
+    }
+
+    .brand{
+        margin-left: 10px;
+    }
+
+    .jumbotron .display-4 {
+        color: black;
+        font-weight: 300;    
+        text-align: center;     
+        margin-top: 500px;
+        margin-left: 25px;
+    }
+    .navigation{
+        margin-left: -10px;
+    }
+
+    .jumbotron .btn{
+        display: none;
+    }
+}
+
+@media screen  and (min-width:361px) and (max-width:479px){
+    .NavbarsocialIcons{
+        display: none;
+    }
+    .jumbotron img{
+        height: 210px;
+        margin-left: 120px;
+        margin-top: -700px;
+    }
+    .jumbotron .display-4 {
+        color: black;
+        font-weight: 300;    
+        text-align: center;     
+        margin-top: 400px;
+        margin-left: 25px;
+    }
+    .brand{
+        margin-left: -10px;
+    }
+    .card{
+        height: 200px;
+        width: 100px;
+    }
+}
+
+@media screen  and (max-width:360px){
+    .NavbarsocialIcons{
+        display: none;
+    }
+
+    .brand{
+        margin-left: -10px;
+        font-size: 0.9em;
+    }
+    .navigation{
+        margin-left: -47px;
+    }
+   .navigation li a{
+    font-size: 0.6em;
+   }
+   .nav-link{
+    font-size: 0.7em;
+   }
+   .jumbotron img{
+    height: 250px;
+    margin-top: -800px;
+    margin-left: 60px;
+    }
+    .jumbotron .display-4 {
+        color: black;
+        font-weight: 300;    
+        text-align: center;     
+        margin-top: 400px;
+        margin-left: -15px;
+    }
+}
+
+
+
+
